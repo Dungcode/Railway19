@@ -125,19 +125,19 @@ VALUES 					('Dev' 			),
 						('PM' 			);
                         
 -- -- table 3: `Account`	
-INSERT INTO `Account`	(		Email		 , 	Username		,	FullName			,DepartmentID 	, PositionID	, CreateDate )
-VALUES 					('Email1@gmail.com'	 ,	'QuocViet'		,N'Tạ Quốc Việt'		, 		5		,		 1		,'2021-03-05'),
-						('Email2@gmail.com'	 ,	'ThuyDung'	 	,N'Hoàng Thùy Dung' 	, 		8		,		 2		,'2021-03-05'),
-						('Email3@gmail.com'	 ,	'TuanAnh'	 	,N'Bùi Tuấn Anh '		, 		1		,		 2	 	,'2021-03-07'),
-						('Email4@gmail.com'	 ,	'MinhHieu'	 	,N'Phạm Minh Hiếu '		, 		4		,		 4	 	, DEFAULT    ),
-						('Email5@gmail.com'	 , 	'HuyenTrang'	,N'Phạm Thị Huyền Trang', 		2		,		 4	 	,'2021-03-10'),
-						('Email6@gmail.com'	 , 	'ĐucManh'	 	,N'Lê Đức Mạnh'			, 		3		,		 3	 	,'2021-04-05'),
-						('Email7@gmail.com'	 , 	'BichThao'	 	,N'Đỗ Thị Bích Thảo'	, 		10		,		 2	 	, NULL		 ),
-						('Email8@gmail.com'	 , 	'LanAnh '	 	,N'Chử Thị Lan Anh '	, 		9		,		 1	 	,'2021-04-07'),
-						('Email9@gmail.com'	 , 	'VanHoa '	 	,N'Trịnh Văn Hóa '		, 		7		,		 2	 	,'2021-04-07'),
-						('Email10@gmail.com' , 	'MinhTrang'	 	,N'Tặng Thị Minh Trang'	, 		4 		,		 1		, DEFAULT 	 ),
-						('Email11@gmail.com' , 	'ThiKhoe '	 	,N'Lê Thị Khỏe '		, 		2	 	,		 1	 	,'2021-04-09'),
-						('Email12@gmail.com' , 	'HaiCuong'	 	,N'Lại Hải Cường' 		, 		5 		,		 1	 	,'2021-03-08');
+INSERT INTO `Account`	(		Email			, 	Username		,	FullName			,DepartmentID 	, PositionID	, CreateDate )
+VALUES 					('QuocViet@gmail.com'	,	'QuocViet'		,N'Tạ Quốc Việt'		, 		5		,		 1		,'2021-03-05'),
+						('ThuyDung@gmail.com'	,	'ThuyDung'	 	,N'Hoàng Thùy Dung'		, 		8		,		 2		,'2021-03-05'),
+						('TuanAnh@gmail.com'	,	'TuanAnh'	 	,N'Bùi Tuấn Anh'		, 		1		,		 2	 	,'2021-03-07'),
+						('MinhHieu@gmail.com'	,	'MinhHieu'	 	,N'Phạm Minh Hiếu'		, 		4		,		 4	 	, DEFAULT    ),
+						('HuyenTrang@gmail.com'	, 	'HuyenTrang'	,N'Phạm Thị Huyền Trang', 		2		,		 4	 	,'2021-03-10'),
+						('ĐucManh@gmail.com'	, 	'ĐucManh'	 	,N'Lê Đức Mạnh'			, 		3		,		 3	 	,'2021-04-05'),
+						('BichThao@gmail.com'	, 	'BichThao'	 	,N'Đỗ Thị Bích Thảo'	, 		10		,		 2	 	, NULL		 ),
+						('LanAnh@gmail.com'	 	, 	'LanAnh '	 	,N'Chử Thị Lan Anh'		, 		9		,		 1	 	,'2021-04-07'),
+						('VanHoa@gmail.com'	 	, 	'VanHoa '	 	,N'Trịnh Văn Hóa'		, 		7		,		 2	 	,'2021-04-07'),
+						('MinhTrang@gmail.com' 	, 	'MinhTrang'	 	,N'Tặng Thị Minh Trang'	, 		3 		,		 1		, DEFAULT 	 ),
+						('ThiKhoe@gmail.com' 	, 	'ThiKhoe '	 	,N'Lê Thị Khỏe'			, 		2	 	,		 1	 	,'2021-04-09'),
+						('HaiCuong@gmail.com' 	, 	'HaiCuong'	 	,N'Lại Hải Cường'		, 		5 		,		 1	 	,'2021-03-08');
 
 -- TABLE 4: Group
 INSERT INTO `Group`		( GroupName		, CreatorID	 ,	CreateDate	)
